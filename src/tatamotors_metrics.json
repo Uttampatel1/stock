@@ -1,0 +1,57 @@
+{
+    "symbol": "TATAMOTORS",
+    "analysis_date": "2024-12-01 20:25:18",
+    "company_metrics": {
+        "market_cap": {
+            "value": 289492.0,
+            "formatted": "₹289,492.00 Cr.",
+            "denomination": "Crore"
+        },
+        "current_price": {
+            "value": 786.0,
+            "formatted": "₹786.00",
+            "denomination": "Absolute"
+        },
+        "high_low": {
+            "high": 1179.0,
+            "low": 696.0,
+            "formatted": "₹1,179.00 / ₹696.00",
+            "range": 483.0
+        },
+        "stock_pe": {
+            "value": 8.65,
+            "formatted": "8.65"
+        },
+        "book_value": {
+            "value": 275.0,
+            "formatted": "₹275.00",
+            "denomination": "Absolute"
+        },
+        "dividend_yield": {
+            "value": 0.38,
+            "formatted": "0.38%"
+        },
+        "roce": {
+            "value": 20.1,
+            "formatted": "20.10%"
+        },
+        "roe": {
+            "value": 49.4,
+            "formatted": "49.40%"
+        },
+        "face_value": {
+            "value": 2.0,
+            "formatted": "₹2.00",
+            "denomination": "Absolute"
+        }
+    },
+    "pros": [
+        "Company has reduced debt.",
+        "Company has delivered good profit growth of 93.1% CAGR over last 5 years"
+    ],
+    "cons": [
+        "Stock is trading at 2.86 times its book value",
+        "Promoter holding has decreased over last quarter: -3.78%",
+        "Tax rate seems low"
+    ]
+}
