@@ -1,0 +1,8 @@
+2024-12-02 15:59:24,607 - INFO - Successfully fetched data for AAPL
+2024-12-02 15:59:24,608 - ERROR - Analysis failed: Data must be 1-dimensional, got ndarray of shape (251, 1) instead
+2024-12-02 16:00:54,253 - INFO - Successfully fetched data for AAPL
+2024-12-02 16:00:54,254 - ERROR - Analysis failed: Data must be 1-dimensional, got ndarray of shape (251, 1) instead
+2024-12-02 16:02:25,661 - INFO - Successfully fetched data for AAPL
+2024-12-02 16:02:25,662 - ERROR - Analysis failed: Data must be 1-dimensional, got ndarray of shape (251, 1) instead
+2024-12-02 16:03:56,231 - INFO - Successfully fetched data for AAPL
+2024-12-02 16:03:56,232 - ERROR - Analysis failed: Data must be 1-dimensional, got ndarray of shape (251, 1) instead

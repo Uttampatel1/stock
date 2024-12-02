@@ -1,13 +1,16 @@
-from src.Advanced_Stock_Price_Prediction_System import analyze_stock
+from src.technical_analysis import AdvancedTechnicalAnalysis
+from src.advanced_ml_model import AdvancedStockPredictor
+import yfinance as yf
 
-# Analyze a stock
-results = analyze_stock('AAPL')
+# Fetch data and analyze
+symbol = "AAPL"
+data = yf.download(symbol, start="2018-01-01")
 
-# Print prediction
-print(f"Prediction for {results['symbol']}:")
-print(f"Direction: {results['prediction']['prediction']}")
-print(f"Confidence: {results['prediction']['confidence']:.2f}")
-print(f"Support/Resistance Levels: {results['prediction']['support_resistance']}")
+# Technical Analysis
+ta = AdvancedTechnicalAnalysis(data)
+feature_data = ta.calculate_all_indicators()
+signals = ta.get_signals()
 
-# Charts are saved in the 'stock_analysis' directory
-print(f"Analysis charts saved in: {results['charts_location']}")
+# ML Prediction
+predictor = AdvancedStockPredictor(feature_data)
+# ... (rest of the prediction process)

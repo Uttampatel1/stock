@@ -1,0 +1,3 @@
+2024-12-02 16:42:07,444 - __main__ - INFO - Starting prediction process for AAPL
+2024-12-02 16:42:07,750 - __main__ - INFO - Downloaded 501 days of historical data
+2024-12-02 16:42:07,780 - __main__ - ERROR - Error in main process: Operands are not aligned. Do `left, right = left.align(right, axis=1, copy=False)` before operating.

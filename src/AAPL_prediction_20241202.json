@@ -1,0 +1,13 @@
+{
+    "date": "2024-12-02",
+    "symbol": "AAPL",
+    "current_price": 239.779296875,
+    "prediction": "HIGHER",
+    "confidence": 0.52,
+    "technical_indicators": {
+        "sma_20": 228.653963470459,
+        "sma_50": 229.11598541259767,
+        "daily_range": 0.01513887842416936,
+        "volume_change": -0.48158728152408237
+    }
+}
